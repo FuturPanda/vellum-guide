@@ -36,7 +36,13 @@ Your content ...
 - `version` is the Vellum version you checked the page against
 - `authors` is who wrote it (ie you!)
 - all authors show up in the byline at the top of the page
-- then add your page to the sidebar in `docs/.vitepress/config.mjs`
+- then add your page to the sidebar in `docs/.vitepress/locales/en.mjs`
+
+## Adding a translation
+
+English pages live directly in `docs/` and are the default locale. Put translated pages in a folder named with their locale code, such as `docs/fr/`, and keep the same file names as the English pages.
+
+Each locale has its own configuration file in `docs/.vitepress/locales/`. Add the locale to the `locales` object in `docs/.vitepress/config.mjs`; VitePress will then show it in the language menu.
 
 ## What makes a good page
 
@@ -52,6 +58,5 @@ Screenshots, tips and how-tos are fine and welcome and awesome. But please no bu
 ## License
 
 The writing here is under Creative Commons Attribution.
-
 
 
