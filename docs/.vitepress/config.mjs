@@ -78,6 +78,7 @@ export default defineConfig({
         items: [
           { text: 'All guides', link: '/guides/' },
           { text: 'Notes', link: '/guides/notes' },
+          { text: 'Sections', link: '/guides/sections' },
           { text: 'Fields', link: '/guides/fields' },
           { text: 'Import', link: '/guides/import' },
           { text: 'Vaults', link: '/guides/vaults' },

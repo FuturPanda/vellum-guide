@@ -31,6 +31,46 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.9', date: '3 September 2026', title: 'Sections',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545142886339711116',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1545143015767674972'
+    },
+    sections: [
+      {
+        title: 'Sections',
+        href: '/guides/sections',
+        items: [
+          'sections just got a whole lotta love',
+          'add sections to any note, including prose documents—no tag required',
+          'split a note’s own bullets into named sections such as Notes, References, and Ideas',
+          'type straight into a section with the full editor; new entries automatically pick up the section’s tags and fields',
+          'fold, sort, group, and filter any section. Each section remembers its arrangement',
+          'a note wearing several tags now shows sections from all of them',
+          'a section can be powered by any saved search',
+          'flip a page’s sections into side-by-side columns'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.9/sections-1.webp',
+            alt: 'An Acme note organized into Board minutes, Agenda, Employees, and Press sections',
+            caption: 'Divide any note into focused, named sections.'
+          },
+          {
+            src: '/images/changelog/0.2.9/sections-2.webp',
+            alt: 'An Employees section with controls to sort, group, and filter its entries',
+            caption: 'Give each section its own sort, group, and filter arrangement.'
+          },
+          {
+            src: '/images/changelog/0.2.9/sections-3.webp',
+            alt: 'A Sleep and memory note showing Findings, Sources, and Log sections in side-by-side columns',
+            caption: 'Switch a page to columns to see sections side by side.'
+          }
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.8', date: '2 September 2026', title: 'Merge and aliases',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544703954234118176',
