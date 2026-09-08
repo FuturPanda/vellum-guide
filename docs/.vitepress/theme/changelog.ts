@@ -31,15 +31,44 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.4', date: '30 August 2026', title: 'JSON import enhancements',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543632043064164413',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1543632158038429706'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'fixed: handle cases where one or more notes carry the same date or number field twice (for example, the same Rating number field listed twice on one note)',
+          'fixed: handle cases where one or more notes wear tags that contain the same field name (for example, two different tags, each with a Due date field, assigned to the same note)',
+          'enhanced error capture: rather than aborting the JSON read on the first error, Vellum now continues reading the entire JSON and captures a full list of data errors for reporting'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.3', date: '29 August 2026', title: 'hotfix release',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543442619923824731',
       betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1543442772596629514'
     },
-    highlights: [
-      'fixed: JSON import failing on big exports with lots of attachments',
-      'fixed: JSON import refusing files where a calendar page is also linked from a note',
-      'deleting folded notes now warns you first and names exactly what would be removed'
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'fixed: JSON import failing on big exports with lots of attachments',
+          'fixed: JSON import refusing files where a calendar page is also linked from a note'
+        ]
+      },
+      {
+        title: 'Notes',
+        items: [
+          'deleting folded notes now warns you first and names exactly what would be removed'
+        ]
+      }
     ]
   },
   {
