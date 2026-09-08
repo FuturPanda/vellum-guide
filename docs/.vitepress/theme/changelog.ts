@@ -31,6 +31,24 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.6', date: '31 August 2026', title: 'And even more JSON import improvements 😁',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544029986631975122',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1544030074200662096'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'attachments: you now have the option to leave files on their remote server or copy them into Vellum (the default). If you choose to copy files into Vellum, downloads now occur in the background, so you can start using your notes right away. Any failed downloads automatically retry when Vellum starts, and you can manually retry them at any time',
+          'performance: after importing a JSON file with thousands of note-to-note links, typing could lag. This is now fixed',
+          'heads up: v0.2.6 updates your vault’s storage format, so there’s no going back to an older release after you update'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.5', date: '31 August 2026', title: 'More JSON import improvements',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543776211686129685',
