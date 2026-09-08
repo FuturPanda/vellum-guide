@@ -31,15 +31,195 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.9', date: '3 September 2026', title: 'Sections',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545142886339711116',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1545143015767674972'
+    },
+    sections: [
+      {
+        title: 'Sections',
+        href: '/guides/sections',
+        items: [
+          'sections just got a whole lotta love',
+          'add sections to any note, including prose documents—no tag required',
+          'split a note’s own bullets into named sections such as Notes, References, and Ideas',
+          'type straight into a section with the full editor; new entries automatically pick up the section’s tags and fields',
+          'fold, sort, group, and filter any section. Each section remembers its arrangement',
+          'a note wearing several tags now shows sections from all of them',
+          'a section can be powered by any saved search',
+          'flip a page’s sections into side-by-side columns'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.9/sections-1.webp',
+            alt: 'An Acme note organized into Board minutes, Agenda, Employees, and Press sections',
+            caption: 'Divide any note into focused, named sections.'
+          },
+          {
+            src: '/images/changelog/0.2.9/sections-2.webp',
+            alt: 'An Employees section with controls to sort, group, and filter its entries',
+            caption: 'Give each section its own sort, group, and filter arrangement.'
+          },
+          {
+            src: '/images/changelog/0.2.9/sections-3.webp',
+            alt: 'A Sleep and memory note showing Findings, Sources, and Log sections in side-by-side columns',
+            caption: 'Switch a page to columns to see sections side by side.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    version: '0.2.8', date: '2 September 2026', title: 'Merge and aliases',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544703954234118176',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1544704096903106641'
+    },
+    sections: [
+      {
+        title: 'Merge',
+        href: '/guides/notes#merge-tags-and-fields',
+        items: [
+          'you can now merge tags and fields',
+          'no pre-staging is required: visit any tag or field and choose “Merge other tags [fields] into this one” or “Merge this tag [field] into…”',
+          'the merge dialog describes everything that will be updated'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.8/tag-merge-1.png',
+            alt: 'The Merge tags dialog comparing the film and movie tags, their fields, and everything the merge will update',
+            caption: 'Review every affected note, field, and link before merging tags.'
+          }
+        ]
+      },
+      {
+        title: 'Aliases',
+        href: '/guides/notes#aliases',
+        items: [
+          'you can now refer to any node by other names',
+          'aliases work in search, cmd-p, and the link pickers',
+          'any single link can also show its own words'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.8/alias-1.webp',
+            alt: 'A link to Casa Miranda Guesthouse being created with the custom words the little place in Galicia',
+            caption: 'Give an individual link its own words as you create it.'
+          },
+          {
+            src: '/images/changelog/0.2.8/alias-2.webp',
+            alt: 'The Casa Miranda Guesthouse info panel listing The Guesthouse and Casa Miranda as aliases',
+            caption: 'Add and manage aliases in the note’s info panel.'
+          },
+          {
+            src: '/images/changelog/0.2.8/alias-3.webp',
+            alt: 'The link picker finding Casa Miranda Guesthouse by its alias The Guesthouse',
+            caption: 'Find notes by their real names or any alias.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    version: '0.2.7', date: '1 September 2026', title: 'Yet even more import improvements, plus a few other tweaks',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544311721370329209',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1544311904670064812'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'import now processes YAML frontmatter in Markdown files'
+        ]
+      },
+      {
+        title: 'Editor',
+        items: [
+          'performance: after a large import, typing `[[` could show a delay before displaying candidate links. The same could happen when selecting a note under cmd-k > Move under. Both are now fixed',
+          'checkboxes in prose documents are now supported',
+          'pasting Markdown checkboxes into the outliner now works'
+        ]
+      }
+    ]
+  },
+  {
+    version: '0.2.6', date: '31 August 2026', title: 'And even more JSON import improvements 😁',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544029986631975122',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1544030074200662096'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'attachments: you now have the option to leave files on their remote server or copy them into Vellum (the default). If you choose to copy files into Vellum, downloads now occur in the background, so you can start using your notes right away. Any failed downloads automatically retry when Vellum starts, and you can manually retry them at any time',
+          'performance: after importing a JSON file with thousands of note-to-note links, typing could lag. This is now fixed',
+          'heads up: v0.2.6 updates your vault’s storage format, so there’s no going back to an older release after you update'
+        ]
+      }
+    ]
+  },
+  {
+    version: '0.2.5', date: '31 August 2026', title: 'More JSON import improvements',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543776211686129685',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1543776321505722459'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'fixed: a tag still in use could be skipped if the JSON trash objects also pointed at that same tag schema',
+          'enhanced the pre-import report with more details: each missing tag now says how many notes it covers, and tags sitting in the JSON trash are noted',
+          'fixed: dates written into the JSON by externally connected tools used a format Vellum didn’t recognize. This is now addressed'
+        ]
+      }
+    ]
+  },
+  {
+    version: '0.2.4', date: '30 August 2026', title: 'JSON import enhancements',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543632043064164413',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1543632158038429706'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'fixed: handle cases where one or more notes carry the same date or number field twice (for example, the same Rating number field listed twice on one note)',
+          'fixed: handle cases where one or more notes wear tags that contain the same field name (for example, two different tags, each with a Due date field, assigned to the same note)',
+          'enhanced error capture: rather than aborting the JSON read on the first error, Vellum now continues reading the entire JSON and captures a full list of data errors for reporting'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.3', date: '29 August 2026', title: 'hotfix release',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543442619923824731',
       betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1543442772596629514'
     },
-    highlights: [
-      'fixed: JSON import failing on big exports with lots of attachments',
-      'fixed: JSON import refusing files where a calendar page is also linked from a note',
-      'deleting folded notes now warns you first and names exactly what would be removed'
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'fixed: JSON import failing on big exports with lots of attachments',
+          'fixed: JSON import refusing files where a calendar page is also linked from a note'
+        ]
+      },
+      {
+        title: 'Notes',
+        items: [
+          'deleting folded notes now warns you first and names exactly what would be removed'
+        ]
+      }
     ]
   },
   {

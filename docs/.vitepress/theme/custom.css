@@ -443,7 +443,7 @@
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.3rem 0.75rem;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0;
 }
 
 .vg-release-header .vg-release-version {
@@ -470,8 +470,8 @@
   font-size: 0.85rem;
 }
 
-.vg-release-title {
-  margin: 1.4rem 0 0.65rem;
+.vg-release-body > .vg-release-title {
+  margin: 0.75rem 0 0.65rem;
   color: var(--vp-c-text-1);
   font-size: 1.35rem;
   font-weight: 650;
@@ -522,6 +522,11 @@
   flex-wrap: wrap;
   gap: 0.55rem;
   margin: 0 0 1rem;
+}
+
+.vg-latest-release h2 + .vg-release-links,
+.vg-release-title + .vg-release-links {
+  padding-top: 0.5rem;
 }
 
 .vg-release-links a {

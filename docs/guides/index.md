@@ -1,7 +1,7 @@
 ---
 title: Guides
-description: Focused guides to Vellum’s fields, imports, vaults, and interface.
-version: "0.2.2"
+description: Focused guides to Vellum’s notes, sections, fields, imports, vaults, and interface.
+version: "0.2.9"
 referencedBy:
   - title: Get started
     href: /get-started#whats-next
@@ -13,6 +13,8 @@ Focused walkthroughs for getting more out of Vellum. These guides are being buil
 
 ## Explore the guides
 
+- [Notes guide](/guides/notes) — use aliases and merge tags or fields
+- [Sections guide](/guides/sections) — organize and arrange the contents of any note
 - [Fields guide](/guides/fields) — field types, including dates and times
 - [Import guide](/guides/import) — bring a Markdown folder or JSON workspace into Vellum
 - [Vault guide](/guides/vaults) — create and work with multiple independent vaults
