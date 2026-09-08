@@ -44,6 +44,13 @@ export const releases: ChangelogRelease[] = [
           'you can now merge tags and fields',
           'no pre-staging is required: visit any tag or field and choose “Merge other tags [fields] into this one” or “Merge this tag [field] into…”',
           'the merge dialog describes everything that will be updated'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.8/tag-merge-1.png',
+            alt: 'The Merge tags dialog comparing the film and movie tags, their fields, and everything the merge will update',
+            caption: 'Review every affected note, field, and link before merging tags.'
+          }
         ]
       },
       {
@@ -53,6 +60,23 @@ export const releases: ChangelogRelease[] = [
           'you can now refer to any node by other names',
           'aliases work in search, cmd-p, and the link pickers',
           'any single link can also show its own words'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.8/alias-1.webp',
+            alt: 'A link to Casa Miranda Guesthouse being created with the custom words the little place in Galicia',
+            caption: 'Give an individual link its own words as you create it.'
+          },
+          {
+            src: '/images/changelog/0.2.8/alias-2.webp',
+            alt: 'The Casa Miranda Guesthouse info panel listing The Guesthouse and Casa Miranda as aliases',
+            caption: 'Add and manage aliases in the note’s info panel.'
+          },
+          {
+            src: '/images/changelog/0.2.8/alias-3.webp',
+            alt: 'The link picker finding Casa Miranda Guesthouse by its alias The Guesthouse',
+            caption: 'Find notes by their real names or any alias.'
+          }
         ]
       }
     ]
