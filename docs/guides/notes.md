@@ -2,6 +2,7 @@
 title: Notes guide
 description: Learn how to use aliases and merge tags or fields in Vellum.
 version: "0.2.8"
+authors: ["Futur Panda"]
 referencedBy:
   - title: Guides
     href: /guides/
@@ -13,19 +14,23 @@ referencedBy:
 
 ## Merge tags and fields
 
-You can merge tags and fields without any pre-staging. Visit any tag or field and choose either **Merge other tags [fields] into this one** or **Merge this tag [field] into…**.
+You can merge tags and fields without setting anything up first.
+
+Visit any tag and choose either **Merge other tags into this one** or **Merge this tag into...**. Visit any field and choose either **Merge into this field** or **Merge this field into...**.
 
 Before you confirm, the merge dialog describes everything that will be updated.
 
 ## Aliases
 
-Aliases let you refer to a note by other names. Open a note and choose **cmd-k > Show info** to add them. This info panel is new and will expand over time; for now, it contains aliases and a few other details.
+Aliases let you refer to a note by other names. Open a note, choose **cmd-k > Show info**, and add them under **Also known as**. The panel talks about names rather than aliases, so that is the wording to look for.
 
-Search, **cmd-p**, `[[`, `@`, and even `#` for a tag find notes by either their original names or any aliases.
+Search, **cmd-p**, `[[`, `@`, and even `#` for a tag will find notes by their real name or by any alias.
 
-A single link can also show its own words. Write `[[Vellum|my favourite note app]]`, or place the cursor next to an existing link and choose **cmd-k > Change the words**.
+A single link can also show its own words, without adding an alias to the note. Type `[[`, then the name of the note you want, then `|`, then the words to show, and pick the note from the list. So typing `[[Vellum|my favourite note app` and picking Vellum gives you a link that reads *my favourite note app*.
 
-If you changed a link’s words and want that name to stick, choose **cmd-k > This Link > Promote** to turn it into a real alias. The **This Link** section of **cmd-k** contains a few other helpful options too.
+To change the words on a link that already exists, put your cursor next to it and choose **cmd-k > Change the words...**.
+
+If you want those words to stick as a real name for the note, look under **This link** for the entry offering to make them one of the note's names. It spells out your words and the note, so it reads something like **Make "my favourite note app" one of "Vellum"'s names**. The **This link** section holds a few other useful things too.
 
 Aliases are included in Markdown imports and exports.
 
