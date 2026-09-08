@@ -31,6 +31,68 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.10', date: '5 September 2026', title: 'Various fixes & enhancements',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545765162739441674',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1545765423851503697'
+    },
+    sections: [
+      {
+        title: 'Editor',
+        items: [
+          'Tab after an archived row no longer makes the row disappear',
+          'splitting a bullet that holds several lines no longer leaves an empty line behind',
+          'cmd-a inside a mirror now selects all the way up',
+          'Korean and Japanese typing: Enter now finishes the character and creates the new row in one go',
+          'applying bold and then italic now keeps the bold formatting',
+          'the `Mirrored in` list now starts with the original note and leaves out the row you’re on',
+          'Backspace and Tab in a grouped or sorted section follow the visible row above'
+        ]
+      },
+      {
+        title: 'Sections',
+        href: '/guides/sections',
+        items: [
+          'pasting on a page with sections puts the rows in the visible section, never a hidden one',
+          'copying and pasting a note with sections keeps its bullets in their sections',
+          'you can now rename sections you created directly on the page. Sections supplied by a tag are still renamed on the tag’s page',
+          'add sections to daily notes; cmd-k > Add to… can also land in a daily note’s section',
+          'no more stray empty lines when a row moves between groups in a grouped section'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.10/sections-in-daily.webp',
+            alt: 'A daily note with Today’s stuff and Nested sections beneath Today’s tasks',
+            caption: 'Daily notes can now have their own sections.'
+          }
+        ]
+      },
+      {
+        title: 'Interface',
+        href: '/guides/interface',
+        items: [
+          'pinned notes always show their name in the sidebar',
+          'the typed code-block examples in Settings are easier to read',
+          'children views now say when more options are available while zoomed in'
+        ]
+      },
+      {
+        title: 'Search',
+        href: '/guides/search',
+        items: [
+          'a saved search inside another search’s results can now be unfolded one level deep'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.10/expand-search-in-search.webp',
+            alt: 'A Reading search with the Unread books saved search unfolded inside its results',
+            caption: 'Unfold a saved search inside another search’s results.'
+          }
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.9', date: '3 September 2026', title: 'Sections',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545142886339711116',

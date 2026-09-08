@@ -1,17 +1,15 @@
 ---
-title: Sections guide
-description: Learn how to organize and arrange any Vellum note with sections.
-version: "0.2.9"
+title: Search guide
+description: Learn how to find notes and build saved searches in Vellum.
+version: "0.2.10"
 referencedBy:
   - title: Guides
     href: /guides/
   - title: Changelog · Vellum 0.2.10
     href: /changelog#v0.2.10
-  - title: Changelog · Vellum 0.2.9
-    href: /changelog#v0.2.9
 ---
 
-# Sections guide
+# Search guide
 
 ::: info Coming soon
 Vellum’s guides are slowly being built by the community. This guide is coming soon.

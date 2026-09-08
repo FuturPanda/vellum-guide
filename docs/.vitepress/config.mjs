@@ -77,12 +77,31 @@ export default defineConfig({
         text: 'Guides',
         items: [
           { text: 'All guides', link: '/guides/' },
-          { text: 'Notes', link: '/guides/notes' },
-          { text: 'Sections', link: '/guides/sections' },
-          { text: 'Fields', link: '/guides/fields' },
-          { text: 'Import', link: '/guides/import' },
-          { text: 'Vaults', link: '/guides/vaults' },
-          { text: 'Interface', link: '/guides/interface' },
+          {
+            text: 'Write & structure',
+            collapsed: false,
+            items: [
+              { text: 'Notes', link: '/guides/notes' },
+              { text: 'Sections', link: '/guides/sections' },
+              { text: 'Fields', link: '/guides/fields' },
+            ]
+          },
+          {
+            text: 'Find & navigate',
+            collapsed: false,
+            items: [
+              { text: 'Search', link: '/guides/search' },
+              { text: 'Interface', link: '/guides/interface' },
+            ]
+          },
+          {
+            text: 'Data & storage',
+            collapsed: false,
+            items: [
+              { text: 'Import', link: '/guides/import' },
+              { text: 'Vaults', link: '/guides/vaults' },
+            ]
+          },
         ]
       },
       {
