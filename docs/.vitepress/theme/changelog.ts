@@ -31,6 +31,24 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.5', date: '31 August 2026', title: 'More JSON import improvements',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543776211686129685',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1543776321505722459'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'fixed: a tag still in use could be skipped if the JSON trash objects also pointed at that same tag schema',
+          'enhanced the pre-import report with more details: each missing tag now says how many notes it covers, and tags sitting in the JSON trash are noted',
+          'fixed: dates written into the JSON by externally connected tools used a format Vellum didn’t recognize. This is now addressed'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.4', date: '30 August 2026', title: 'JSON import enhancements',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1543632043064164413',
