@@ -31,6 +31,30 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.7', date: '1 September 2026', title: 'Yet even more import improvements, plus a few other tweaks',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544311721370329209',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1544311904670064812'
+    },
+    sections: [
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'import now processes YAML frontmatter in Markdown files'
+        ]
+      },
+      {
+        title: 'Editor',
+        items: [
+          'performance: after a large import, typing `[[` could show a delay before displaying candidate links. The same could happen when selecting a note under cmd-k > Move under. Both are now fixed',
+          'checkboxes in prose documents are now supported',
+          'pasting Markdown checkboxes into the outliner now works'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.6', date: '31 August 2026', title: 'And even more JSON import improvements 😁',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544029986631975122',
