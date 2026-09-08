@@ -31,6 +31,68 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.11', date: '5 September 2026', title: 'Archive, backups, images, and a few more…',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545865957212164147',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1545866311056498699'
+    },
+    sections: [
+      {
+        title: 'Archive',
+        href: '/guides/notes',
+        items: [
+          'archiving a note now archives everything nested under it, and unarchiving brings it all back',
+          'archived tasks stay out of Today’s tasks',
+          'archived tags leave the sidebar and All tags, and aren’t shown when you type #'
+        ]
+      },
+      {
+        title: 'Backups',
+        href: '/guides/vaults',
+        items: [
+          'restore from a backup file of your own, not just the app’s recent automatic backups',
+          'backups are now made immediately before your first change after starting, so opening Vellum only to read never pushes an old backup off the shelf'
+        ]
+      },
+      {
+        title: 'Images',
+        href: '/guides/notes',
+        items: [
+          'words and a picture in the same bullet or paragraph now sit side by side, like a magazine column',
+          'pictures in bullets and documents have a placement strip: hover over it—or press and hold on a phone—and choose automatic, its own line, left, or right',
+          'in a document, the paragraphs after a tall picture keep flowing beside it until the image ends'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.11/cars-outline.webp',
+            alt: 'An outline combining car images and text with automatic, full-line, left, and right image placement',
+            caption: 'Place images beside text or give them a line of their own in an outline.'
+          },
+          {
+            src: '/images/changelog/0.2.11/cars-document.webp',
+            alt: 'A prose document with paragraphs flowing around car images placed on the left and right',
+            caption: 'Document paragraphs continue flowing beside tall images.'
+          }
+        ]
+      },
+      {
+        title: 'Search',
+        href: '/guides/search',
+        items: [
+          'the search box on a search now also finds rows inside a nested search you’ve opened',
+          'a saved search’s own page now lists notes that include the search in a field. A note or tag showing the search as a section is not counted yet'
+        ]
+      },
+      {
+        title: 'Import',
+        href: '/guides/import',
+        items: [
+          'a note property containing multiple links now imports as a reference field holding those notes. A list that mixes links with plain words, or names a note outside the import, stays text as before'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.10', date: '5 September 2026', title: 'Various fixes & enhancements',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545765162739441674',
