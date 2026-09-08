@@ -66,6 +66,17 @@ export const shortcutSections: ShortcutSection[] = [
     ],
   },
   {
+    title: 'Views',
+    shortcuts: [
+      { action: 'Toggle view options for the current row or page', mac: 'Shift + Cmd + L', windows: 'Shift + Ctrl + L' },
+    ],
+    supplements: [
+      {
+        paragraphs: ['From a row in Daily Notes, this toggles that row\'s view options. On a sectioned page, it opens the current section\'s sort, group, and filter bar. On a page that is not sectioned, use it from any row—or while no row is focused—to toggle the page\'s own view options.'],
+      },
+    ],
+  },
+  {
     title: 'Search',
     shortcuts: [
       { action: 'Open the search palette', mac: 'Cmd + P', windows: 'Ctrl + P' },
