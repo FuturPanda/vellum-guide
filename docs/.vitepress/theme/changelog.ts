@@ -31,6 +31,33 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.8', date: '2 September 2026', title: 'Merge and aliases',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544703954234118176',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1544704096903106641'
+    },
+    sections: [
+      {
+        title: 'Merge',
+        href: '/guides/notes#merge-tags-and-fields',
+        items: [
+          'you can now merge tags and fields',
+          'no pre-staging is required: visit any tag or field and choose “Merge other tags [fields] into this one” or “Merge this tag [field] into…”',
+          'the merge dialog describes everything that will be updated'
+        ]
+      },
+      {
+        title: 'Aliases',
+        href: '/guides/notes#aliases',
+        items: [
+          'you can now refer to any node by other names',
+          'aliases work in search, cmd-p, and the link pickers',
+          'any single link can also show its own words'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.7', date: '1 September 2026', title: 'Yet even more import improvements, plus a few other tweaks',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1544311721370329209',
