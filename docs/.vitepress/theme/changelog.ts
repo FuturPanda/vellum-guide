@@ -45,7 +45,7 @@ export const releases: ChangelogRelease[] = [
           'cmd-a inside a mirror now selects all the way up',
           'Korean and Japanese typing: Enter now finishes the character and creates the new row in one go',
           'applying bold and then italic now keeps the bold formatting',
-          'the `Mirrored in` list now starts with the original note and leaves out the row you’re on',
+          'the “Mirrored in” list now starts with the original note and leaves out the row you’re on',
           'Backspace and Tab in a grouped or sorted section follow the visible row above'
         ]
       },
@@ -73,7 +73,7 @@ export const releases: ChangelogRelease[] = [
         items: [
           'pinned notes always show their name in the sidebar',
           'the typed code-block examples in Settings are easier to read',
-          'children views now say when more options are available while zoomed in'
+          'a view shown on a note’s own page now tells you to zoom in for the rest of its options'
         ]
       },
       {
@@ -105,7 +105,7 @@ export const releases: ChangelogRelease[] = [
         items: [
           'sections just got a whole lotta love',
           'add sections to any note, including prose documents—no tag required',
-          'split a note’s own bullets into named sections such as Notes, References, and Ideas',
+          'split a note’s own bullets into named sections such as Notes, Sources, and Ideas',
           'type straight into a section with the full editor; new entries automatically pick up the section’s tags and fields',
           'fold, sort, group, and filter any section. Each section remembers its arrangement',
           'a note wearing several tags now shows sections from all of them',
@@ -144,7 +144,7 @@ export const releases: ChangelogRelease[] = [
         href: '/guides/notes#merge-tags-and-fields',
         items: [
           'you can now merge tags and fields',
-          'no pre-staging is required: visit any tag or field and choose “Merge other tags [fields] into this one” or “Merge this tag [field] into…”',
+          'no pre-staging is required: visit any tag and choose “Merge other tags into this one” or “Merge this tag into…”, or visit any field and choose “Merge into this field” or “Merge this field into…”',
           'the merge dialog describes everything that will be updated'
         ],
         images: [
@@ -200,7 +200,7 @@ export const releases: ChangelogRelease[] = [
       {
         title: 'Editor',
         items: [
-          'performance: after a large import, typing `[[` could show a delay before displaying candidate links. The same could happen when selecting a note under cmd-k > Move under. Both are now fixed',
+          'performance: after a large import, typing [[ could show a delay before displaying candidate links. The same could happen when selecting a note under cmd-k > Move under. Both are now fixed',
           'checkboxes in prose documents are now supported',
           'pasting Markdown checkboxes into the outliner now works'
         ]
