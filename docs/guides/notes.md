@@ -6,6 +6,8 @@ authors: ["Futur Panda"]
 referencedBy:
   - title: Guides
     href: /guides/
+  - title: Changelog · Vellum 0.2.11
+    href: /changelog#v0.2.11
   - title: Changelog · Vellum 0.2.8
     href: /changelog#v0.2.8
 ---
