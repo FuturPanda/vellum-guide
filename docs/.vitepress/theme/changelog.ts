@@ -31,6 +31,41 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.12', date: '6 September 2026', title: 'It’s all about the section!',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546199648090198047',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1546199807264038942'
+    },
+    sections: [
+      {
+        title: 'Search',
+        href: '/guides/search',
+        items: [
+          'live search can now find notes that have a section, not only what’s inside one: every person with a To discuss section, only those with something in it, or only the empty ones. Leave the name blank to find every note with any section at all',
+          'a section search can now inspect the note holding the section—for example, minutes of meetings Ben attended, minutes from the last week, or minutes of meetings a manager attended',
+          'group section-search results by the note they came from, with one band per note holding a matching section. Each result displays a small chip naming the section it came through, alongside the breadcrumb showing where the note lives'
+        ]
+      },
+      {
+        title: 'Sections',
+        href: '/guides/sections',
+        items: [
+          'sections now appear in the outline. When a note with its own sections is expanded inside another note, a label sits above each group; drag a bullet beneath a label to file it into that section',
+          'when you add the first section to a note that already has bullets, Vellum asks whether to move them into the new section or keep them together above it in a renameable section called Notes',
+          'turn a bullet into a section in one step: a Pros bullet with three children becomes a Pros section holding those three. Use cmd-k or type / on the bullet and choose Section. Cmd-k also offers “Make every top-level bullet a section…” to convert them all at once',
+          'change a section’s rule after the fact by selecting its sentence and choosing a new one. The section keeps its name, sorting, folds, and every search that names it'
+        ]
+      },
+      {
+        title: 'Interface',
+        href: '/guides/interface',
+        items: [
+          'sidebar cards now show a note’s sections—live, editable, and foldable'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.11', date: '5 September 2026', title: 'Archive, backups, images, and a few more…',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1545865957212164147',
