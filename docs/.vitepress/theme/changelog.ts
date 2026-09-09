@@ -31,6 +31,51 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.13', date: '6 September 2026', title: 'A bunch of small updates to complement the last release',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546321407531683921',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1546321612842864660'
+    },
+    sections: [
+      {
+        title: 'Sections',
+        href: '/guides/sections',
+        items: [
+          'sorted and filtered lists now behave while you work in them. Previously, a list sorted by title re-sorted on every keystroke: the row and cursor hopped away, Tab did a headshake, and margin-drag couldn’t select rows. Now the order freezes while your cursor is in the list; a row added with Enter appears where you entered it; Tab moves it under the row above; and margin-drag selects rows normally. The list re-sorts when you click out. Dragging a bullet to move it remains disabled while sorting is active',
+          'rows inside a section now display at the same font size as the note’s own title, and a note mirrored several levels deep no longer shrinks at each level'
+        ]
+      },
+      {
+        title: 'Notes',
+        href: '/guides/notes',
+        items: [
+          'Tab on a bullet beneath a mirrored note now adds it to the original',
+          'a link in a page title now offers Open and Change the words from cmd-k, just like a link in a bullet'
+        ]
+      },
+      {
+        title: 'Search',
+        href: '/guides/search',
+        items: [
+          'Used in N notes now counts notes that show the search as a section, not only as a field'
+        ]
+      },
+      {
+        title: 'Fields',
+        href: '/guides/fields',
+        items: [
+          'the rule menu on a tag no longer repeats the same sentence once per tag that has a field of that name'
+        ]
+      },
+      {
+        title: 'Under the hood',
+        items: [
+          'plus a handful of small internal cleanups'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.12', date: '6 September 2026', title: 'It’s all about the section!',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546199648090198047',
