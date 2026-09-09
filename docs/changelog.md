@@ -2,7 +2,7 @@
 title: Changelog
 description: Release notes for Vellum, from the earliest beta releases to today.
 authors: ["Grace", "Futur Panda"]
-version: "0.2.13"
+version: "0.2.14"
 outline: false
 ---
 

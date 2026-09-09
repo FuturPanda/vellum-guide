@@ -31,6 +31,63 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.14', date: '7 September 2026', title: 'Yet even more ❤️ on sections…',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546594282784296980',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1546594568818921497'
+    },
+    sections: [
+      {
+        title: 'Sections',
+        href: '/guides/sections',
+        items: [
+          'show every section on a page as a list, table, or cards from the same controls used for sorting and filtering. For example, show a project’s Tasks as a table with Deadline and Owner, or add a Dealer column to a Pros table in place. A tag’s schema page offers the same choice under “Shown as”',
+          'a section powered by a saved search initially looks like the search’s own page, so an existing table appears as a table everywhere it is used. After that, the section has its own arrangement: changing one does not change the other',
+          'table columns resized on one page retain their width on that page only, even when the rest of the arrangement is shared',
+          'when you add the first section to a page already sorted or shown as a table, that arrangement moves into the new section instead of disappearing, and a toast explains what happened',
+          'a sectioned note opened inside another note now presents every section as its own page does, with the same table or cards, sorting, and filtering',
+          'shift-cmd-L—or ctrl-shift-L on Linux and Windows—toggles view options for the row containing your cursor. On a sectioned page, it opens that section’s sort, group, and filter bar; from any other row, it toggles the page’s own view options',
+          'the Zoom in link on a row’s view strip now opens the page with its controls already showing',
+          'view all the sections on a page together as one list, table, or set of cards covering every bullet, with Section available as a column and grouping. Sections powered by saved searches or fields continue to appear separately for now'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.14/tasks-as-table.webp',
+            alt: 'A project Tasks section displayed as a table with Status, Deadline, and Owner columns',
+            caption: 'Show any section as a list, table, or cards.'
+          },
+          {
+            src: '/images/changelog/0.2.14/add-a-field-in-a-section.webp',
+            alt: 'A Pros section displayed as a table while adding a new Dealer field as a column',
+            caption: 'Add fields as table columns directly inside a section.'
+          },
+          {
+            src: '/images/changelog/0.2.14/sections-inside-parent.webp',
+            alt: 'An expanded Audi note showing its Pros as a table and Cons as cards inside its parent note',
+            caption: 'Expanded notes preserve each section’s chosen view.'
+          },
+          {
+            src: '/images/changelog/0.2.14/section-in-sidebar-card.webp',
+            alt: 'A Books section displayed as a table inside a J. R. R. Tolkien sidebar card',
+            caption: 'Section views also work inside sidebar cards.'
+          },
+          {
+            src: '/images/changelog/0.2.14/all-together-table.webp',
+            alt: 'A page combining Pros and Cons into one table with a Section column',
+            caption: 'View a page’s sections together, with Section available as a column or grouping.'
+          }
+        ]
+      },
+      {
+        title: 'Fields',
+        href: '/guides/fields',
+        items: [
+          'number fields now accept >= and <= when filtering'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.13', date: '6 September 2026', title: 'A bunch of small updates to complement the last release',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546321407531683921',
@@ -89,6 +146,33 @@ export const releases: ChangelogRelease[] = [
           'live search can now find notes that have a section, not only what’s inside one: every person with a To discuss section, only those with something in it, or only the empty ones. Leave the name blank to find every note with any section at all',
           'a section search can now inspect the note holding the section—for example, minutes of meetings Ben attended, minutes from the last week, or minutes of meetings a manager attended',
           'group section-search results by the note they came from, with one band per note holding a matching section. Each result displays a small chip naming the section it came through, alongside the breadcrumb showing where the note lives'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.12/meeting-minutes.webp',
+            alt: 'A search finding rows in Minutes sections belonging to notes tagged meeting',
+            caption: 'Find content inside a named section on matching notes.'
+          },
+          {
+            src: '/images/changelog/0.2.12/meeting-minutes-with-ben.webp',
+            alt: 'A search finding Minutes from notes whose Attendees field includes Ben Okafor',
+            caption: 'Filter by fields on the note that holds the section.'
+          },
+          {
+            src: '/images/changelog/0.2.12/meeting-minutes-from-last-week.webp',
+            alt: 'A search finding Minutes sections on notes created during the last seven days',
+            caption: 'Combine section searches with dates on their parent notes.'
+          },
+          {
+            src: '/images/changelog/0.2.12/meeting-minutes-with-managers.webp',
+            alt: 'A search finding Minutes from notes attended by people whose Role is Manager',
+            caption: 'Follow field paths from the note that holds a section.'
+          },
+          {
+            src: '/images/changelog/0.2.12/grouped-actions.webp',
+            alt: 'Action Items search results grouped by the note containing each matching section',
+            caption: 'Group results by their section’s note and see each source section in a chip.'
+          }
         ]
       },
       {
@@ -99,6 +183,28 @@ export const releases: ChangelogRelease[] = [
           'when you add the first section to a note that already has bullets, Vellum asks whether to move them into the new section or keep them together above it in a renameable section called Notes',
           'turn a bullet into a section in one step: a Pros bullet with three children becomes a Pros section holding those three. Use cmd-k or type / on the bullet and choose Section. Cmd-k also offers “Make every top-level bullet a section…” to convert them all at once',
           'change a section’s rule after the fact by selecting its sentence and choosing a new one. The section keeps its name, sorting, folds, and every search that names it'
+        ],
+        images: [
+          {
+            src: '/images/changelog/0.2.12/conv-to-sections-1.webp',
+            alt: 'The command menu offering to turn every top-level bullet on a Mini Cooper note into a section',
+            caption: 'Convert every top-level bullet into a section in one step.'
+          },
+          {
+            src: '/images/changelog/0.2.12/conv-to-sections-2.webp',
+            alt: 'The Mini Cooper note after conversion, with Images, Pros, and Cons shown as columns',
+            caption: 'Each former top-level bullet becomes a named section.'
+          },
+          {
+            src: '/images/changelog/0.2.12/conv-to-sections-3.webp',
+            alt: 'The Mini Cooper note expanded inside Car shopping with Images, Pros, and Cons section labels',
+            caption: 'Section labels remain visible when a note is expanded inside another note.'
+          },
+          {
+            src: '/images/changelog/0.2.12/editable-sections.webp',
+            alt: 'A project tag schema changing what its Items section should show',
+            caption: 'Change a section’s rule without rebuilding its other settings.'
+          }
         ]
       },
       {
