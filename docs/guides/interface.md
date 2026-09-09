@@ -5,6 +5,8 @@ version: "0.2.2"
 referencedBy:
   - title: Guides
     href: /guides/
+  - title: Changelog · Vellum 0.2.15
+    href: /changelog#v0.2.15
   - title: Changelog · Vellum 0.2.12
     href: /changelog#v0.2.12
   - title: Changelog · Vellum 0.2.10

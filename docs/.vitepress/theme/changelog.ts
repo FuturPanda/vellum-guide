@@ -31,6 +31,34 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.15', date: '8 September 2026', title: 'Proper full-vault backups',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546895270548082729',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1546895546164191304'
+    },
+    sections: [
+      {
+        title: 'Backups',
+        href: '/guides/vaults',
+        items: [
+          'Vellum can now make a full backup of your vault on a schedule. Choose a folder under Settings > Backup; once a day, immediately before your first change, Vellum copies the entire vault. The folder can be on another disk or in a cloud service such as iCloud Drive, Dropbox, or Nextcloud',
+          'every attached image, PDF, and file is included once. Media is kept in one folder inside the backup folder, so thirty days of backups do not create thirty copies of every image',
+          'choose how long backups are kept. The default retains every day for a month, one per week for a year, and one per month after that. Alternatively, keep every backup indefinitely. Settings lists each backup with its date and size, and lets you delete any of them',
+          'Back up now in Settings makes a full backup whenever you like. Use Stop backing up to disable scheduled full-vault backups',
+          'if the backup folder cannot be reached, a note at the bottom of the window explains why. Your notes remain safe, and Vellum tries again the next time you make a change',
+          'to restore, open the vault menu and choose New vault > From a backup. The list shows your five newest backups with their dates and sizes, a row that opens the backup folder in Finder for older backups, and the safety copies Vellum keeps beside your notes. A restore always creates a new vault beside the current one; your current vault is untouched'
+        ]
+      },
+      {
+        title: 'Settings',
+        href: '/guides/interface',
+        items: [
+          'Settings is reorganized into Backup, Restore, Export, and Import. Restore explains that a backup brings back everything and how this differs from an import, which restores only what the imported files contain. The Markdown export switch is now called Export automatically'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.14', date: '7 September 2026', title: 'Yet even more ❤️ on sections…',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546594282784296980',
