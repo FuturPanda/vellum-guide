@@ -31,6 +31,22 @@ export interface ChangelogRelease {
 
 export const releases: ChangelogRelease[] = [
   {
+    version: '0.2.16', date: '8 September 2026', title: 'Full-vault backup hotfix',
+    links: {
+      discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546972472153346079',
+      betaAnnouncement: 'https://discord.com/channels/1518609452712988703/1528233791305416838/1546972803968802826'
+    },
+    sections: [
+      {
+        title: 'Backups',
+        href: '/guides/vaults',
+        items: [
+          'fixed issues that could prevent certain files from being included when backing up a vault to cloud storage'
+        ]
+      }
+    ]
+  },
+  {
     version: '0.2.15', date: '8 September 2026', title: 'Proper full-vault backups',
     links: {
       discordPost: 'https://discord.com/channels/1518609452712988703/1533185269623164938/1546895270548082729',
