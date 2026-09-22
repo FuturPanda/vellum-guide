@@ -99,6 +99,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Planning a trip', link: '/guides/trip' },
+              { text: 'Keeping track of your tools', link: '/guides/tools' },
             ]
           },
           {
