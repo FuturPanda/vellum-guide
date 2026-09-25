@@ -100,6 +100,7 @@ export default defineConfig({
             items: [
               { text: 'Planning a trip', link: '/guides/trip' },
               { text: 'Keeping track of your tools', link: '/guides/tools' },
+              { text: "Annotations: Who's doing what, and where", link: '/guides/annotations' },
             ]
           },
           {
