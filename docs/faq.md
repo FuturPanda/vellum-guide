@@ -7,7 +7,7 @@ authors: ["Futur Panda"]
 
 # FAQ
 
-Common questions from people using Vellum in beta. For a linear first day, start with [Get started](/get-started).
+Common questions from people using Vellum in beta. For a linear first day, start with [Getting started](/get-started).
 
 ## Getting oriented
 
@@ -41,7 +41,7 @@ A dimmed line under a node’s title. It shows up wherever the node does (includ
 
 ### What is a tag?
 
-More than a keyword. A tag can be a plain label, or a **schema** (fields) plus a **tag page** that lists everything wearing it, with views. See [Tags and fields](/get-started#tags-and-fields).
+More than a keyword. A tag can be a plain label, or a **schema** (fields) plus a **tag page** that lists everything wearing it, with views. See [Dana, our first tag](/get-started#dana-our-first-tag).
 
 ### Do fields require a tag?
 
@@ -51,7 +51,7 @@ No. Fields can be vault-wide and reused on any node. Tag-owned fields still exis
 
 ### How does search work?
 
-<kbd>Cmd</kbd>+<kbd>P</kbd> / <kbd>Ctrl</kbd>+<kbd>P</kbd> opens the search palette. Details and patterns are in [Get started](/get-started#finding-things); keys are on [Keyboard shortcuts](/keyboard-shortcuts).
+<kbd>Cmd</kbd>+<kbd>P</kbd> / <kbd>Ctrl</kbd>+<kbd>P</kbd> opens the search palette. Details and patterns are in [Jump anywhere with Cmd-P](/get-started#jump-anywhere-with-cmd-p); keys are on [Keyboard shortcuts](/keyboard-shortcuts).
 
 ### What are saved searches / live queries? {#saved-searches}
 

@@ -60,7 +60,7 @@ export default defineConfig({
       {
         text: 'Start here',
         items: [
-          { text: 'Get started', link: '/get-started' },
+          { text: 'Getting started', link: '/get-started' },
           { text: 'FAQ', link: '/faq' },
           { text: 'Release notes', link: '/changelog' },
         ]
@@ -98,6 +98,7 @@ export default defineConfig({
             text: 'Walkthroughs',
             collapsed: false,
             items: [
+              { text: 'Getting started: Your first day', link: '/get-started' },
               { text: 'Planning a trip', link: '/guides/trip' },
               { text: 'Keeping track of your tools', link: '/guides/tools' },
               { text: "Annotations: Who's doing what, and where", link: '/guides/annotations' },
