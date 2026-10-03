@@ -21,5 +21,8 @@ Focused walkthroughs for getting more out of Vellum. These guides are being buil
 - [Vault guide](/guides/vaults) — create and work with multiple independent vaults
 - [Interface guide](/guides/interface) — customize the places and tools you see in Vellum
 - [Planning a trip](/guides/trip) — a worked example of sections, Add to, and saved searches
+- [Keeping track of your tools](/guides/tools) — reference fields that point at any note, and what shows up on the other end
+- [Annotations: Who's doing what, and where](/guides/annotations) — notes that belong to one note in one place, and a field's notes as a table
+- [Dates on a trip](/guides/dates) — how dates work in searches: what's on any day, what's still going, what's still to come
 
 <ReferencedBy />

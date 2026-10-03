@@ -102,6 +102,7 @@ export default defineConfig({
               { text: 'Planning a trip', link: '/guides/trip' },
               { text: 'Keeping track of your tools', link: '/guides/tools' },
               { text: "Annotations: Who's doing what, and where", link: '/guides/annotations' },
+              { text: 'Dates on a trip', link: '/guides/dates' },
             ]
           },
           {

@@ -838,7 +838,7 @@ Let's get some more coffee, shall we? Now that we know where the good stuff is ð
 
 ## What's next {#whats-next}
 
-- **More walkthroughs**, each one a story like this: [planning a trip](/guides/trip), [keeping track of your tools](/guides/tools), and [who's doing what, and where](/guides/annotations).
+- **More walkthroughs**, each one a story like this: [planning a trip](/guides/trip), [keeping track of your tools](/guides/tools), [who's doing what, and where](/guides/annotations), and [dates on a trip](/guides/dates).
 - **[Capture from your phone](/faq#telegram-capture)**, to send notes into your vault through Telegram, wherever you are.
 - **[Keyboard shortcuts](/keyboard-shortcuts)**, every one of them on a single page.
 - **[The FAQ](/faq)**, for the questions people ask most.
