@@ -67,6 +67,10 @@ Reusable searches defined by rules. They can live in the sidebar, sit on a note 
 
 `#task` is first-class. New tasks land on today by default, dates and priorities are fields, and a project page rolls up every task pointing at it. Checkbox rows and task tags work together, and heavier work often uses a project that collects tasks through a reference field.
 
+### What do the Tasks and Projects links open, and can I change them? {#tasks-and-projects}
+
+They open your `#task` and `#project` pages, and either can be pointed at another tag. [Tasks and Projects](/guides/tasks-and-projects) explains what makes a tag a task tag (its Planning section) and how to point each link elsewhere.
+
 ### How do I capture from my phone? {#telegram-capture}
 
 Use the Telegram integration:

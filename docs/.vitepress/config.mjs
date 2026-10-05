@@ -84,6 +84,7 @@ export default defineConfig({
               { text: 'Notes', link: '/guides/notes' },
               { text: 'Sections', link: '/guides/sections' },
               { text: 'Fields', link: '/guides/fields' },
+              { text: 'Tasks and Projects', link: '/guides/tasks-and-projects' },
             ]
           },
           {
