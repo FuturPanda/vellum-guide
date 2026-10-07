@@ -71,6 +71,10 @@ Reusable searches defined by rules. They can live in the sidebar, sit on a note 
 
 They open your `#task` and `#project` pages, and either can be pointed at another tag. [Tasks and Projects](/guides/tasks-and-projects) explains what makes a tag a task tag (its Planning section) and how to point each link elsewhere.
 
+### Can a task repeat? {#repeating-tasks}
+
+Yes. Type the repeat into the task's When box, like `every mon, wed and fri`, `every month on the 1st` or `7 days after done`, or pick one from the calendar beside it. [Repeating tasks](/guides/repeating-tasks) covers setting, moving, pausing and stopping a repeat, and what to do when a day doesn't go to plan.
+
 ### How do I capture from my phone? {#telegram-capture}
 
 Use the Telegram integration:

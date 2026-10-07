@@ -85,6 +85,7 @@ export default defineConfig({
               { text: 'Sections', link: '/guides/sections' },
               { text: 'Fields', link: '/guides/fields' },
               { text: 'Tasks and Projects', link: '/guides/tasks-and-projects' },
+              { text: 'Repeating tasks', link: '/guides/repeating-tasks' },
             ]
           },
           {

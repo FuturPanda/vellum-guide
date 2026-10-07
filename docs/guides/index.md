@@ -18,6 +18,7 @@ Focused walkthroughs for getting more out of Vellum. These guides are being buil
 - [Search guide](/guides/search) — find notes and build saved searches
 - [Fields guide](/guides/fields) — field types, including dates and times
 - [Tasks and Projects](/guides/tasks-and-projects) — what makes a tag a task tag, and pointing the Tasks and Projects links at other tags
+- [Repeating tasks](/guides/repeating-tasks) — setting, moving, pausing and stopping a repeat, and what to do when a day doesn't go to plan
 - [Import guide](/guides/import) — bring a Markdown folder or JSON workspace into Vellum
 - [Vault guide](/guides/vaults) — create and work with multiple independent vaults
 - [Interface guide](/guides/interface) — customize the places and tools you see in Vellum

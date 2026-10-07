@@ -72,4 +72,8 @@ The **Make Projects open this tag** button itself does only one thing: it picks 
 
 You can, but the rail will only show Tasks.
 
+## Tasks that come round again
+
+For tasks that repeat, from setting one up to fixing a day recorded wrong, see [Repeating tasks](/guides/repeating-tasks).
+
 <ReferencedBy />

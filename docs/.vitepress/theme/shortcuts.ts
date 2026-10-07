@@ -47,11 +47,13 @@ export const shortcutSections: ShortcutSection[] = [
       { action: 'Copy the current node when nothing is selected', mac: 'Cmd + C', windows: 'Ctrl + C' },
       { action: 'Delete the current node', mac: 'Cmd + Shift + Backspace', windows: 'Ctrl + Shift + Backspace' },
       { action: "Add a checkbox, or open a document's page", mac: 'Cmd + Enter', windows: 'Ctrl + Enter' },
+      { action: 'Tick a task, or untick it (cursor in a line with a checkbox)', mac: 'Cmd + Enter', windows: 'Ctrl + Enter' },
+      { action: 'Cancel a task, or reopen it (cursor in a line with a checkbox)', mac: 'Shift + Cmd + Enter', windows: 'Shift + Ctrl + Enter' },
       { action: 'Expand or collapse a node', mac: 'Cmd + ↑ / ↓', windows: 'Ctrl + ↑ / ↓' },
       { action: 'Expand or collapse all nodes', mac: 'Ctrl + Cmd + ↑ / ↓', windows: 'Ctrl + Alt + ↑ / ↓' },
       { action: 'Zoom into or out of a node', mac: 'Shift + Cmd + . / ,', windows: 'Shift + Ctrl + . / ,' },
       { action: 'Search the current outline', mac: 'Cmd + F', windows: 'Ctrl + F' },
-      { action: 'Create a node at the bottom of the page', mac: 'Shift + Cmd + Enter', windows: 'Shift + Ctrl + Enter' },
+      { action: 'Create a node at the bottom of the page (cursor in a line with no checkbox)', mac: 'Shift + Cmd + Enter', windows: 'Shift + Ctrl + Enter' },
     ],
     supplements: [
       {
