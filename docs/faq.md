@@ -47,6 +47,10 @@ More than a keyword. A tag can be a plain label, or a **schema** (fields) plus a
 
 No. Fields can be vault-wide and reused on any node. Tag-owned fields still exist; when names collide you’ll see where they came from, e.g. `Author (book)` next to `Author (article)`.
 
+### What's the difference between Add to, a mirror and a link? {#where-a-note-lives}
+
+A note lives in one place, the one shown above its title. A move changes that place. Add to puts the note on a shelf on another page and leaves it where you wrote it. A mirror shows the note itself in a second outline, and you can write in either place. A link just points at it, and the note lists it under Mentioned in. [Where a note lives](/guides/where-a-note-lives) walks through all four with one example.
+
 ## Search and queries
 
 ### How does search work?
@@ -56,6 +60,10 @@ No. Fields can be vault-wide and reused on any node. Tag-owned fields still exis
 ### What are saved searches / live queries? {#saved-searches}
 
 Reusable searches defined by rules. They can live in the sidebar, sit on a note as a **saved search** field (and unfold live results there), or narrow what a reference field’s picker offers (“Narrow to”).
+
+### How do I find everything under a note, or everything that links to it? {#note-hierarchy}
+
+In a saved search, **Under a note…** (the Note hierarchy rule) finds everything nested under a note, however deep, mirrors included. **Links to a note…** (the Note links rule) finds every note whose words link to it. [Note hierarchy and Note links](/guides/note-hierarchy) walks through both, gathering a project's tasks from wherever they were written.
 
 ## Daily notes, tasks, and capture
 

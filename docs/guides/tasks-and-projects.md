@@ -76,4 +76,8 @@ You can, but the rail will only show Tasks.
 
 For tasks that repeat, from setting one up to fixing a day recorded wrong, see [Repeating tasks](/guides/repeating-tasks).
 
+## A project's tasks, wherever you wrote them
+
+To gather a project's open tasks from the project itself, your daily notes and anything linking to it, all on the project's own page, see [Note hierarchy and Note links](/guides/note-hierarchy).
+
 <ReferencedBy />

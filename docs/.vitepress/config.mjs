@@ -86,6 +86,7 @@ export default defineConfig({
               { text: 'Fields', link: '/guides/fields' },
               { text: 'Tasks and Projects', link: '/guides/tasks-and-projects' },
               { text: 'Repeating tasks', link: '/guides/repeating-tasks' },
+              { text: 'Where a note lives', link: '/guides/where-a-note-lives' },
             ]
           },
           {
@@ -93,6 +94,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Search', link: '/guides/search' },
+              { text: 'Note hierarchy and Note links', link: '/guides/note-hierarchy' },
               { text: 'Interface', link: '/guides/interface' },
             ]
           },

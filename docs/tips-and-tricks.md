@@ -16,6 +16,8 @@ Have a tip? Add it at the bottom of this page: a heading, a few lines, and your 
 
 Cmd-K on any bullet, then Add to, and pick a note. The bullet stays where you wrote it, and it also shows up on the page you picked. Handy for a running log on a project without leaving today's note.
 
+More, with pictures, in [Where a note lives](/guides/where-a-note-lives#add-to-when-the-day-is-its-home).
+
 Shared by Grace.
 
 ## Increment selection with consecutive `cmd-A`

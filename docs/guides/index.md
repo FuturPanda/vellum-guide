@@ -16,9 +16,11 @@ Focused walkthroughs for getting more out of Vellum. These guides are being buil
 - [Notes guide](/guides/notes) — use aliases and merge tags or fields
 - [Sections guide](/guides/sections) — organize and arrange the contents of any note
 - [Search guide](/guides/search) — find notes and build saved searches
+- [Note hierarchy and Note links](/guides/note-hierarchy) — gathering a project's tasks from wherever you wrote them: what's nested under a note, what links to it, and both together
 - [Fields guide](/guides/fields) — field types, including dates and times
 - [Tasks and Projects](/guides/tasks-and-projects) — what makes a tag a task tag, and pointing the Tasks and Projects links at other tags
 - [Repeating tasks](/guides/repeating-tasks) — setting, moving, pausing and stopping a repeat, and what to do when a day doesn't go to plan
+- [Where a note lives](/guides/where-a-note-lives) — one note in two places: moving it, Add to, a mirror and a link, and when to use which
 - [Import guide](/guides/import) — bring a Markdown folder or JSON workspace into Vellum
 - [Vault guide](/guides/vaults) — create and work with multiple independent vaults
 - [Interface guide](/guides/interface) — customize the places and tools you see in Vellum

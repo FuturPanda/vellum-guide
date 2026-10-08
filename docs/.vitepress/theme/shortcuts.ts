@@ -50,9 +50,11 @@ export const shortcutSections: ShortcutSection[] = [
       { action: 'Tick a task, or untick it (cursor in a line with a checkbox)', mac: 'Cmd + Enter', windows: 'Ctrl + Enter' },
       { action: 'Cancel a task, or reopen it (cursor in a line with a checkbox)', mac: 'Shift + Cmd + Enter', windows: 'Shift + Ctrl + Enter' },
       { action: 'Expand or collapse a node', mac: 'Cmd + ↑ / ↓', windows: 'Ctrl + ↑ / ↓' },
+      { action: 'On a node with nothing left to collapse, fold the one it sits under and move there', mac: 'Cmd + ↑', windows: 'Ctrl + ↑' },
       { action: 'Expand or collapse all nodes', mac: 'Ctrl + Cmd + ↑ / ↓', windows: 'Ctrl + Alt + ↑ / ↓' },
       { action: 'Zoom into or out of a node', mac: 'Shift + Cmd + . / ,', windows: 'Shift + Ctrl + . / ,' },
       { action: 'Search the current outline', mac: 'Cmd + F', windows: 'Ctrl + F' },
+      { action: 'Create a child of the current node (also works on a list line in a document)', mac: 'Option + Enter', windows: 'Alt + Enter' },
       { action: 'Create a node at the bottom of the page (cursor in a line with no checkbox)', mac: 'Shift + Cmd + Enter', windows: 'Shift + Ctrl + Enter' },
     ],
     supplements: [
